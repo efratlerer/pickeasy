@@ -1,0 +1,71 @@
+.q{
+text-align: center;
+  /* position: absolute; */
+margin-top:10%;
+  left: 50%;
+   /* transform: translate(-50%, -50%);  */
+  /* width: 100%;  */
+}
+
+ .card{
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  width: 200%;
+ }
+ .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+      
+.form-nav1{
+    position: fixed; /* מיקום קבוע */
+  top: 5%; /* ערכי top שיביאו אותו לגובה המתאים */
+  right: 20%; /* אפשר לשנות לפי הצורך */
+  border: none;
+
+    height: 50px; 
+    width: 100px;
+    /* margin-left: 5%; */
+    /* padding-left:10% ; */
+    z-index: 10; 
+  /* כדי לוודא שהוא מעל אלמנטים אחרים */
+}   
+  
+
+
+.form-button {
+  border-radius: 20px;
+  border: 1px solid #FAAE3E;;
+  background-color: #FAAE3E;;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+   /* padding-left:5% ; */
+ 
+
+  
+}
+.form-button{
+  color: #222;
+}
+.form-button:active {
+  transform: scale(0.95);
+}
+
+.form-button:focus {
+  outline: none;
+}
+
+.form-button.form-ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+/* .form-dialog{
+    background-color: #FAAE3E;
+} */

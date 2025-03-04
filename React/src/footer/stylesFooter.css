@@ -1,0 +1,87 @@
+/* Footer container */
+.footer {
+  /* background-color: #054c50; */
+ padding: 20px;
+ margin-top: 10%; 
+  background: #0D98A0;
+background: -webkit-linear-gradient(to right, #8fcbce, #6fcacf);
+background: linear-gradient(to right, #94ebef, #064a4b);
+bottom: 0;
+}
+
+/* Footer inner container */
+.footer__container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: unset;
+}
+
+/* Contact information section */
+.footer__contact {
+ flex: 1 1 300px;
+ margin-bottom: 20px;
+}
+
+/* Links section -הכותרת link*/
+.footer__links {
+ flex: 1 1 300px;
+ margin-bottom: 20px;
+ color: white
+}
+
+.footer__links ul {
+ list-style: none;
+ padding: 0;
+ color: white;
+}
+
+.footer__links li {
+ margin-bottom: 5px;
+ color: white;
+}
+
+/* links to pages */
+.footer__links a {
+ color: white;
+ text-decoration: none;
+}
+
+.footer__links a:hover {
+ text-decoration: underline;
+ color:red;
+}
+
+/* Social media section מדיה חברתית*/
+.footer__social {
+ flex: 1 1 300px;
+ margin-bottom: 20px;
+ margin-right: 0;
+}
+
+.footer__social ul {
+ list-style: none;
+ padding: 0;
+}
+
+.footer__social li {
+ margin-bottom: 5px;
+}
+
+/* links to facebook twitter ...... */
+.footer__social a {
+ color:white;
+ text-decoration: none;
+ /* margin-left: 70%; */
+}
+
+.footer__social a:hover {
+ text-decoration: underline;
+ color: #FAAE3E;
+}
+
+/* Bottom section */
+.footer__bottom {
+ margin-top: 20px;
+ text-align: center;
+ color: #1e1c1c;
+}

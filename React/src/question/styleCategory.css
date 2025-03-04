@@ -1,0 +1,72 @@
+
+  .category-container{
+    margin-left: 9%;
+    margin-right: 7%;
+    margin-top: 7%;
+  }
+
+  .category-card {
+    margin: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    height: 290px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 12px;
+    border: 1px solid black; /* מסגרת שחורה ודקה */
+}
+
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* רקע כהה על התוכן */
+    padding: 3px;
+    border-radius: 8px;
+  }
+  
+  .category-title {
+    font-weight: bold;
+    font-size: 5.2rem;
+  }
+  
+  .category-questions {
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+  
+  #category-card-0 {
+    background-image: url("images/מאכלים.jpeg");
+  }
+  
+  #category-card-1  {
+    background-image: url("images/ביגוד.jpeg");
+  }
+  
+  #category-card-2  {
+    background-image: url("images/דירות.jpeg");
+  }
+  
+  #category-card-3 {
+    background-image: url("images/קודים.jpeg");
+  }
+  
+  #category-card-4  {
+    background-image: url("images/מכשירי חשמל.jpeg");
+  }
+  #category-card-5  {
+    background-image: url("images/שונות.jpeg");
+  }
+  

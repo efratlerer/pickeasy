@@ -1,0 +1,31 @@
+ 
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: none;
+  padding: 1%;
+  z-index: 2;
+  display: flex;
+  /* justify-content: space-around; */
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease; /* Add a smooth background color transition */
+
+  }
+
+.navbar-fixed.scrolling .navBar {
+  background-color: white; /* Change background color when scrolling */
+}
+
+.logo {
+  width: 120px; /* Adjust the width of the logo */
+  margin-right: 20px; 
+  /* margin-left: 20px; */
+  margin-top: 10px;
+}
+#link{
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 25px; /* שמור על הסטייל הקודם */
+}

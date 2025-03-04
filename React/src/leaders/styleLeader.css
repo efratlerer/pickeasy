@@ -1,0 +1,15 @@
+.LeaderAnimation{
+    font-size: 30px;
+    color: #0D98A0;
+  }
+  @keyframes text {
+    0%{
+      color: #0D98A0;
+      margin-bottom: -40px;
+    }
+    30%{
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+  }
+  
